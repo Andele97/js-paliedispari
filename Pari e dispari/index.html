@@ -18,20 +18,24 @@
 
       <h1 class="mb-3 text-white fw-bold">Pari o Dispari</h1>
       <select class="form-select sceltaUtente" aria-label=".form-select-sm example">
-        <option value="1">Pari</option>
-        <option value="2">Dispari</option>
+        <option value="pari">Pari</option>
+        <option value="dispari">Dispari</option>
       </select>
 
       <h4 class="text-white text-center mt-2">Scegli il tuo numero</h4>
-      <select class="form-select sceltaNumero mt-2" aria-label=".form-select-sm example">
+      <!--<select class="form-select sceltaNumero mt-2" aria-label=".form-select-sm example">
         <option value="1">1</option>
         <option value="2">2</option>
-        <option value="2">3</option>
-        <option value="2">4</option>
-        <option value="2">5</option>
-      </select>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>-->
+      <input class="form-control" type="number" maxvalue="1" max="5" placeholder="da 1 a 5">
 
-      <button type="button" class="btn btn-secondary mt-3 w-">Gioca</button>
+      <button type="button" class="btn btn-secondary mt-3">Gioca</button>
+
+      <p class="outputSomma"></p>
+      <p class="output"></p>
 
     </div>
   </div>
