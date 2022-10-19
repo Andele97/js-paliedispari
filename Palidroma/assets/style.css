@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right top, blue, yellow);
+}
+
+.container {
+  height: 100vh;
+}
+
+.ap-container {
+  background-color: grey;
+  width: 30%;
+  border-radius: 20px;
+  height: 300px;
+}
