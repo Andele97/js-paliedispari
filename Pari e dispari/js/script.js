@@ -16,7 +16,7 @@ const outputSomma = el('.outputSomma');
 btn.addEventListener('click', function(){
 
   if(numbUser.value < 1 || numbUser.value > 5){
-    winner.innerText = `Il numero inserito non è valido inserisci un numero da 1 a 5`
+    winner.innerText = `Il numero inserito non è valido! Inserisci un numero da 1 a 5`
     return
   }else{
     let pcNumb = randomNumb();
